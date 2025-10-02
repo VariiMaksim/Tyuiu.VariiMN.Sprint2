@@ -1,10 +1,10 @@
-using Tyuiu.VariiMN.Sprint2.Task0.V5.Lib;
+﻿using Tyuiu.VariiMN.Sprint2.Task0.V5.Lib;
 
 namespace Tyuiu.VariiMN.Sprint2.Task0.V5.Test
 {
-    public class Tests
+    public class DataServiceTest
     {
-        [Test]
+        [TestMethod]
         public void Test1()
         {
             DataService ds = new DataService();
