@@ -19,10 +19,10 @@ namespace Tyuiu.VariiMN.Sprint2.Task4.V28.Test
         public void TestMethod2()
         {
             DataService ds = new DataService();
-            double x = 4;
-            double y = 2;
+            double x = 5;
+            double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 43.254;
+            double wait = 1.872;
             Assert.AreEqual(wait, res);
         }
     }
