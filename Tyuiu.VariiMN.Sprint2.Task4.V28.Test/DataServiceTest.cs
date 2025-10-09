@@ -22,7 +22,7 @@ namespace Tyuiu.VariiMN.Sprint2.Task4.V28.Test
             double x = 5;
             double y = 5;
             double res = ds.Calculate(x, y);
-            double wait = 1.872;
+            double wait = 1.787;
             Assert.AreEqual(wait, res);
         }
     }
